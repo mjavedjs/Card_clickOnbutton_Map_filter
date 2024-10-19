@@ -225,8 +225,7 @@ const products = [
 ];
 
 let container=document.querySelector(".container");
-let button=document.querySelector(".btn")
-
+let box =document.querySelector(".box")
 function rednderProduct(arr){
 container.innerHTML=""
 
@@ -244,8 +243,8 @@ rednderProduct(products);
 
 function filteredItem(btn) {
     const FilProduct = products.filter((item) => {
-        return btn.innerHTML === item.category;  
+    return btn.innerHTML === item.category;
     });
-
+    box.innerHTML=`${'Thank you for searching'}`
     rednderProduct(FilProduct);
 }

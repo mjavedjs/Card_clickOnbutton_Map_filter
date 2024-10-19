@@ -64,6 +64,11 @@ h1{
     border-radius: 25px;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
+.box{
+    text-align:center;
+    font-weight:600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 .button:hover {
     background-color: #45a049;
